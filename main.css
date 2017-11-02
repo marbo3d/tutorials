@@ -1,4 +1,4 @@
-/*Tut 14*/
+/* Tut 14 */
 *{
 	margin:0;
 	padding:0;
@@ -17,5 +17,27 @@ body{
 	display:-webkit-box;
 	-webkit-box-pack: center;
 }
-
-
+/* Tut 15 */
+#big_wrapper{
+	max-width: 1000px;
+	margin: 20px 0;
+	display:-webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-box-flex: 1;
+}
+#top_header{
+	background: yellow;
+	border:3px solid black;
+	padding: 20px;
+}
+#top_menu{
+	background: blue;
+	border:red;
+	color: white;	
+}
+#top_menu li{
+	display:inline-block;
+	list-style: none;
+	padding: 5px;
+	font:bold 14px Tahoma;
+}
