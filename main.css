@@ -98,7 +98,7 @@ article footer{
     border: 2px solid blue;
     display: -webkit-box;
     -webkit-box-orient: horizontal;
-    width: 700px;
+    width: 1000px;
     height: 300px;
     /*-webkit-box-pack: center;*/
     -webkit-box-align: stretch;
