@@ -149,15 +149,23 @@ article footer{
     display: block;
     width: 500px;
     margin: 50px auto;
-    padding: 15px;
+    padding: 35px;
     text-align: center;
     border: 1px solid blue;
-    background: orange;
+    /*background: -webkit-linear-gradient(top, black, white);*/
+    /*background: -webkit-linear-gradient(45deg, black, white);*/
+    background: red; /* For browsers that do not support gradients */
+    background: -webkit-radial-gradient(circle, red, orange); /* Safari */
+    background: -o-radial-gradient(circle, red, orange); /* Opera 11.6 to 12.0 */
+    background: -moz-radial-gradient(circle, red, orange); /* Firefox 3.6 to 15 */
+    background: radial-gradient(circle, red, orange); /* Standard syntax */
     -webkit-border-radius: 15px;
-    -webkit-box-shadow: rgb(110,110,110) 5px 5px 8px inset;
+    -webkit-box-shadow: rgba(110,110,110,.6) 5px 5px 8px;
+    /*-webkit-box-shadw: rgb(110,110,110) 5px 5px 8px inset;*/
+    
 
 }
 #text{
     font: bold 30px Century Gothic;
-
+    text-shadow: rgb(110,110,110) 3px 3px 3px;
 }
